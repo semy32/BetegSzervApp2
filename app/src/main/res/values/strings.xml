@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">BetegSzervApp</string>
+    <string name="ujbeteg_neve">Beteg neve:</string>
+    <string name="ujbeteg_tajszama">Beteg tajszáma:</string>
+    <string name="ujbeteg_szerv">Szerv:</string>
+    <string name="ujbeteg_tipus">Szerv típusa:</string>
+    <string name="ujbeteg_gomb">Új Beteg Létrehozása</string>
+    <string name="jj_betegletrehozas_gomb">Új beteg</string>
+    <string name="ujszerv_gomb">Új szerv felvétele</string>
+    <string name="Refresh">Frissités</string>
+    <string name="ujszerv_szerv">Szerv:</string>
+    <string name="ujszerv_tipus">Tíipusa:</string>
+    <string name="ujszervletrehozas_gomb">Új szerv hozzáadása</string>
+    <string-array name="szervek">
+        <item>Vér</item>
+        <item>Vese</item>
+        <item>Szív</item>
+    </string-array>
+</resources>

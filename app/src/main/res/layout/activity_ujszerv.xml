@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="hu.petrik.betegszervapp.UjSzervActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ujszerv_szerv" />
+
+    <Spinner
+        android:id="@+id/ujszerv_szerv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/szervek" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ujszerv_tipus" />
+
+    <EditText
+        android:id="@+id/ujszerv_tipus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/ujszervletrehozas_gomb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ujszervletrehozas_gomb" />
+
+
+
+</LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
